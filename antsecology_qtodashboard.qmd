@@ -1,8 +1,16 @@
 ---
-title: "Ant Ecology"
-author: Saul Woodworth
-format: html
-embed-resources: TRUE
+title: "Ant Ecology Dashboard"
+author: "Saul Woodworth"
+
+format:
+  dashboard:
+    theme: cosmo
+    orientation: rows
+    scrollable: true
+
+execute:
+  warning: false
+  message: false
 ---
 
 ```{r}
@@ -227,6 +235,8 @@ ggplot(PCA_vals, aes(x = PC1, y = PC2, color = Diet)) +
   theme_minimal() +
   labs(title = "PCA colored by Diet")
 ```
+
+# Source and more
 
 :::{.card}
 The following is the abstract from which the data originated from:
