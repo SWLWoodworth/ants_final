@@ -1,0 +1,246 @@
+---
+title: "Ant Ecology"
+author: Saul Woodworth
+format: html
+embed-resources: TRUE
+---
+
+```{r}
+#library
+library(tidyverse)
+library(readr) 
+library(mosaic)
+library(dplyr)
+library(lubridate)
+library(knitr)
+
+#read in
+ants = read.csv("Ants.csv", na.strings = "-")
+
+#clean
+ants = ants |> 
+  mutate(
+    ColSize_Med = as.numeric(ColonySize_Median), 
+    QHdWth = as.numeric(QHeadWidth_mm),
+    QManLth = as.numeric(QMandibleLength_mm),
+    HdWth = HeadWidth_mm,
+    ManLth = MandibleLength_mm
+  ) |>
+  mutate(
+    work_morph = case_when(
+      Morphism_0Mono_1Poly == 0 ~ "monomorphic",
+      Morphism_0Mono_1Poly == 1 ~ "polymorphic"
+    )
+  ) |>
+  mutate(
+    Queen_morph = case_when(
+      QinColony_0Mon_1Poly == 0 ~ "monomorphic",
+      QinColony_0Mon_1Poly == 1 ~ "polymorphic"
+    )
+  ) |>
+  select(Genus_Species, Subfamily, Diet, Nesting_strata, ColSize_Med, HdWth, ManLth, ColDimorphism, LogColsize, QHdWth, QManLth, work_morph, Queen_morph) |> 
+  mutate( 
+    Q_HW_ML = QHdWth / QManLth, 
+    W_HW_ML = HdWth / ManLth, 
+    ) |> 
+  drop_na(Q_HW_ML, W_HW_ML, Nesting_strata)
+
+#Avg table
+ants_avg = ants |>
+  filter(!is.na(Nesting_strata)) |>
+  group_by(Nesting_strata) |>
+  summarise(
+    avg_QHdWth = mean(QHdWth, na.rm = TRUE),
+    avg_QManLth = mean(QManLth, na.rm = TRUE),
+    avg_HdWth = mean(HdWth, na.rm = TRUE),
+    avg_ManLth = mean(ManLth, na.rm = TRUE),
+    avg_ColSize_Med = mean(ColSize_Med, na.rm = TRUE)
+  )
+
+#subfamily-diet chart
+ants_sd = ants |>
+  filter(
+    !is.na(Subfamily),
+    !is.na(Diet)
+  ) |>
+  mutate(Subfamily = reorder(Subfamily, Subfamily, function(x) -length(x)))
+
+#worker-queen morphism
+ants_wq = ants |>
+  filter(!is.na(Queen_morph))
+
+# PCA
+ants_clean <- ants |>
+  filter(if_all(where(is.numeric), ~ !is.na(.)))
+
+ants_num <- ants_clean |>
+  select(where(is.numeric))
+
+ants_cat <- ants_clean |>
+  select(Genus_Species, Diet, Subfamily, Nesting_strata)
+
+ants_PCA <- prcomp(ants_num, center = TRUE, scale. = TRUE)
+
+PCA_vals <- as.data.frame(ants_PCA$x) |>
+  bind_cols(ants_cat)
+
+#Queen morph
+ants_q_drop = ants |>
+  filter(!is.na(Queen_morph))
+
+ants_NsWm = ants |>
+  filter(
+    !is.na(work_morph),
+    !is.na(Nesting_strata)
+  ) |>
+  mutate(Nesting_strata = reorder(Nesting_strata, Nesting_strata, function(x) -length(x)))
+
+ants_qvio = ants |>
+  filter(!is.na(Queen_morph))
+```
+
+
+# Introductory Summaries
+
+## Row{height=60%}
+
+```{r}
+ggplot (data = ants_sd,
+        aes(x = Subfamily, fill = Diet) 
+        ) +
+  geom_bar() +
+  labs(
+    title = "Subfamily and Diet", 
+    x = "Subfamily", 
+    fill = "Diet"
+       ) +
+  theme(axis.text.x = element_text(angle = 30, hjust = 1))
+```
+
+```{r}
+ggplot (data = ants_NsWm,
+        aes(x = work_morph, fill = Nesting_strata) 
+        ) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Nesting Strata and Worker Morphism", 
+    x = "Worker Morphism", 
+    fill = "Nesting Strata"
+       ) 
+```
+
+## Row{height=40%}
+
+```{r}
+kable(ants_avg)
+```
+
+
+
+# Colony Morphisms
+
+## Row{height=50%}
+
+```{r}
+ggplot (data = ants_wq,
+        aes(x = work_morph, fill = Queen_morph) 
+        ) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Worker Morphism and Queen Morphism", 
+    x = "Worker Morphism", 
+    fill = "Queen Morphism"
+       ) 
+```
+
+```{r}
+ggplot(ants_qvio,
+       aes(x=work_morph, y=LogColsize, fill = Queen_morph)) +
+  geom_boxplot(position = position_dodge(width=0.5), alpha = 0.5) +
+  geom_jitter(position = position_jitterdodge(jitter.width = 0.15, dodge.width = 0.75), size = 1.25) +
+  labs(
+    title = "Log Colony Size and Worker Morph, colored by Queen Morphism",
+    x = "Worker Morphism",
+    y = "Log(Colony Size [median])"
+  )
+```
+
+## Row{height=50%}
+
+```{r}
+ggplot(ants, aes(x = HdWth, y = ManLth)) +
+  geom_point(aes(color = work_morph)) + 
+  geom_smooth(aes(color = work_morph), method = "lm") + 
+  labs ( 
+    title = "Worker Ant Mandible Length vs Head Width", 
+    x = "Worker Ant Head Width", 
+    y = "Worker Ant mandible Length"
+    )
+```
+
+```{r}
+ggplot(ants_q_drop, aes(x = QHdWth, y = QManLth)) +
+  geom_point(aes(color = Queen_morph)) + 
+  geom_smooth(aes(color = Queen_morph), method = "lm") + 
+  labs ( 
+    title = "Queen Ant Mandible Length vs Head Width", 
+    x = "Queen Ant Head Width", 
+    y = "Queen Ant mandible Length"
+    )
+```
+
+
+# Ecology
+
+## Row{height=70%}
+
+```{r}
+ggplot(ants, aes(x = W_HW_ML, y = Q_HW_ML)) +
+  geom_point(aes(color = Nesting_strata)) + 
+  geom_smooth(aes(color = Nesting_strata), method = "lm") + 
+  labs ( 
+    title = "Queen vs Worker Ant Head Width:Mandible Length", 
+    x = "Worker Ant Head Width:Mandible length", 
+    y = "Queen Ant Head Width:Mandible Length"
+    )
+```
+
+```{r}
+ggplot(PCA_vals, aes(x = PC1, y = PC2, color = Nesting_strata)) +
+  geom_point(size = 3, alpha = 0.8) +
+  theme_minimal() +
+  labs(title = "PCA colored by Nesting Strata")
+```
+
+## Row{height=30%}
+
+```{r}
+ggplot(PCA_vals, aes(x = PC1, y = PC2, color = Subfamily)) +
+  geom_point(size = 3, alpha = 0.8) +
+  theme_minimal() +
+  labs(title = "PCA colored by Subfamily")
+```
+
+```{r}
+ggplot(PCA_vals, aes(x = PC1, y = PC2, color = Diet)) +
+  geom_point(size = 3, alpha = 0.8) +
+  theme_minimal() +
+  labs(title = "PCA colored by Diet")
+```
+
+:::{.card}
+The following is the abstract from which the data originated from:
+
+Trait-based ecology has surged in recent decades but a framework to assess eusocial taxa, such as ants and termites, has been left underdeveloped because ecological trait-based approaches have yet to examine the ecological relationships and potential mechanisms between different trait components (i.e. queen, colony and worker).
+We collected worker-, queen- and colony-scale traits of the ants of Florida, an ant faunae comprised of ~25% nonnative species, based on morphology, natural and life histories and combined these traits with geospatial data.
+We used these data to assess and develop the beginnings of a hypothesis-testing framework to aid in better understanding trait ecology for eusocial organisms and to understand the spatial structure and drivers of eusocial insect traits by examining individual- and colony-scale trait relationships.
+Results show that queen–worker dimorphism, the morphological difference between workers and queens, shows exceptional potential as a nexus trait for which other colony-scale traits, especially colony size, have significant relationships with. Colony size is therefore the key trait that should be measured, whenever possible, to better understand these other, emergent relationships.
+We also find differences between native and nonnative regional patterns of colony size and queen–worker dimorphism across environmental gradients.
+We show the potential for a more holistic trait approach to ants and potentially other eusocial taxa given the state of current trait knowledge, providing an advanced path forward in functional and trait ecology of eusocial organisms.
+
+You can learn more about this research following this citation:
+
+Ohyama, L., Booher, D. B., & King, J. R. (2023). Ecological traits of social insects: Colony, 
+queen and worker size relationships reveal a nexus trait with broad ecological relevance. 
+Functional Ecology, 37, 2194–2206. https://doi.org/10.1111/1365-2435.14355 
+:::

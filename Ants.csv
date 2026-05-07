@@ -1,0 +1,159 @@
+﻿Genus_Species,Subfamily,Diet,Nesting_strata,QinColony_0Mon_1Poly,Morphism_0Mono_1Poly,ColonySize_Median,HeadWidth_mm,MandibleLength_mm,QHeadWidth_mm,QMandibleLength_mm,ColDimorphism,LogColsize
+Anochetus_mayri,Ponerinae,Predator,Leaf Litter,-,0,12,0.77425,0.457375,0.891,0.507,1.692812244,1.079181246
+Aphaenogaster_ashmeadi,Myrmicinae,Predator,Ground,0,0,333,0.9953333,0.4948333,1.248,0.734,2.011451735,2.522444234
+Aphaenogaster_carolinensis,Myrmicinae,Omnivore,Mixed,0,0,29,0.84,0.4305,1.138,0.627,1.951219512,1.462397998
+Aphaenogaster_flemingi,Myrmicinae,Omnivore,Ground,-,0,300,0.895,0.302,1.152,0.712,2.963576159,2.477121255
+Aphaenogaster_floridana,Myrmicinae,Omnivore,Ground,0,0,50,1.02,0.318,1.31,0.833,3.20754717,1.698970004
+Aphaenogaster_fulva,Myrmicinae,Omnivore,Ground,-,0,540.5,0.9916,0.5249,1.15,0.637,1.889121737,2.732795698
+Aphaenogaster_lamellidens,Myrmicinae,Omnivore,Mixed,-,0,600,1.0337,0.5486,1.227,0.683,1.88425082,2.77815125
+Aphaenogaster_mariae,Myrmicinae,Omnivore,Arboreal,-,0,300,1.0013333,0.5281667,0.717,0.461,1.895866021,2.477121255
+Aphaenogaster_miamiana,Myrmicinae,Omnivore,Mixed,0,0,800,1.327,0.763,-,-,1.739187418,2.903089987
+Aphaenogaster_rudis,Myrmicinae,Omnivore,Mixed,0,0,416.5,0.89,0.4315,-,-,2.062572422,2.619615006
+Aphaenogaster_tennesseensis,Myrmicinae,Omnivore,Mixed,-,0,600,1.1095,0.551125,1.023,0.523,2.01315491,2.77815125
+Aphaenogaster_treatae,Myrmicinae,Omnivore,Ground,0,0,300,1.0042,0.5522,1.369,0.808,1.818544006,2.477121255
+Aphaenogaster_umphreyi,Myrmicinae,Omnivore,Ground,-,0,-,0.88625,0.4075,-,-,2.174846626,-
+Brachymyrmex_depilis,Formicinae,Omnivore,Mixed,-,0,111,0.3804,0.1634,0.487,0.24,2.328029376,2.045322979
+Brachymyrmex_minutus,Formicinae,Omnivore,Ground,0,0,125,0.3219,0.122875,0.505,0.293,2.619735504,2.096910013
+Brachymyrmex_obscurior,Formicinae,Omnivore,Mixed,-,0,200,0.4906667,0.2085,-,-,2.353317506,2.301029996
+Brachymyrmex_patagonicus,Formicinae,Omnivore,Mixed,0,0,-,0.4384,0.1899,0.681,0.367,2.308583465,-
+Camponotus_americanus,Formicinae,Omnivore,Ground,0,1,3560,2.0350833,0.6976667,3.47,-,2.916985002,3.551449998
+Camponotus_castaneus,Formicinae,Omnivore,Ground,-,1,350,2.2761875,0.838875,3.184,1.187,2.713381016,2.544068044
+Camponotus_floridanus,Formicinae,Omnivore,Ground,0,1,10000,2.283375,0.66825,2.822,1.051,3.41694725,4
+Camponotus_nearcticus,Formicinae,Omnivore,Arboreal,0,1,69.5,1.2595,0.162,1.804,0.717,7.774691358,1.841984805
+Camponotus_pennsylvanicus,Formicinae,Omnivore,Ground,0,1,2222,2.9375,0.835,3.438,1.365,3.517964072,3.346744055
+Camponotus_planatus,Formicinae,Omnivore,Mixed,1,1,-,1.4985,0.42375,1.55,0.6,3.536283186,-
+Camponotus_sexguttatus,Formicinae,Omnivore,Mixed,-,1,-,1.147125,0.411625,1.426,0.565,2.786820528,-
+Camponotus_socius,Formicinae,Omnivore,Ground,-,1,470,2.1921667,0.6441667,-,-,3.403104662,2.672097858
+Cardiocondyla_emeryi,Myrmicinae,Omnivore,Ground,1,0,50,0.3648333,0.1774167,0.412,0.231,2.056363916,1.698970004
+Cardiocondyla_mauritanica,Myrmicinae,Omnivore,Ground,1,0,-,0.4452,0.2295,0.478,0.284,1.939869281,-
+Cardiocondyla_minutior,Myrmicinae,Omnivore,Ground,1,0,50,0.352875,0.1605,0.351,0.224,2.198598131,1.698970004
+Cardiocondyla_obscurior,Myrmicinae,Omnivore,Arboreal,1,0,-,0.3737,0.1724,0.372,0.178,2.167633411,-
+Cardiocondyla_venustula,Myrmicinae,Omnivore,Ground,1,0,150,0.448625,0.20425,0.456,0.241,2.196450428,2.176091259
+Cardiocondyla_wroughtonii,Myrmicinae,Omnivore,Leaf Litter,1,0,50,0.4022,0.1818,0.378,0.21,2.212321232,1.698970004
+Cephalotes_varians,Myrmicinae,Omnivore,Arboreal,0,1,1000,1.3583,0.202,1.605,0.25,6.724257426,3
+Crematogaster_ashmeadi,Myrmicinae,Omnivore,Arboreal,0,0,6630,0.7976,0.2848,1.311,0.587,2.800561798,3.821513528
+Crematogaster_lineolata,Myrmicinae,Omnivore,Ground,0,0,178,0.802,0.29975,1.491,0.6,2.675562969,2.250420002
+Crematogaster_minutissima,Myrmicinae,Omnivore,Leaf Litter,1,0,208,0.4875,0.2085,0.787,0.413,2.338129496,2.318063335
+Crematogaster_pilosa,Myrmicinae,Omnivore,Arboreal,-,0,807,0.846375,0.313625,1.404,0.59,2.698684735,2.906873535
+Cryptopone_gilva,Ponerinae,Predator,Ground,1,0,100,0.7488,0.4142,0.848,0.453,1.807822308,2
+Cyphomyrmex_minutus,Myrmicinae,Specialist,Ground,-,0,150,0.624,0.225,0.496,0.243,2.773333333,2.176091259
+Cyphomyrmex_rimosus,Myrmicinae,Specialist,Ground,1,0,125,0.67825,0.25575,0.722,0.319,2.65200391,2.096910013
+Discothyrea_testacea,Proceratiinae,Predator,Mixed,-,0,15,0.37425,0.112625,0.42,0.096,3.322974473,1.176091259
+Dolichoderus_pustulatus,Dolichoderinae,Omnivore,Mixed,0,0,1299,0.763,0.311875,0.759,0.348,2.446492986,3.113609151
+Dorymyrmex_elegans,Dolichoderinae,Omnivore,Ground,-,0,1000,0.671,0.3338333,1.221,0.678,2.009985223,3
+Dorymyrmex_grandulus,Dolichoderinae,Omnivore,Ground,0,0,1000,0.65075,0.26325,-,-,2.471984805,3
+Forelius_pruinosus,Dolichoderinae,Omnivore,Ground,1,0,10000,0.549,0.2644,0.745,0.39,2.076399395,4
+Formica_subsericea,Formicinae,Omnivore,Ground,1,0,8916,1.5005,0.624,2.173,-,2.404647436,3.95017006
+Gnamptogenys_triangularis,Ponerinae,Predator,Ground,-,0,100,1.086625,0.699625,1.095,0.683,1.553153475,2
+Hypoponera_inexorata,Ponerinae,Predator,Mixed,-,0,31,0.6879,0.3876,0.7,0.417,1.774767802,1.491361694
+Hypoponera_opaciceps,Ponerinae,Predator,Mixed,-,0,45,0.6454,0.334,0.661,0.394,1.932335329,1.653212514
+Hypoponera_opacior,Ponerinae,Predator,Mixed,-,0,50,0.530125,0.29225,0.67,0.369,1.813943541,1.698970004
+Hypoponera_punctatissima,Ponerinae,Predator,Mixed,1,0,-,0.5169,0.2708,0.562,0.321,1.908788774,-
+Lasius_interjectus,Formicinae,Omnivore,Ground,-,0,-,1.3468333,0.548,1.63,0.863,2.457725,-
+Lasius_neoniger,Formicinae,Omnivore,Ground,0,0,-,0.7785,0.352125,-,-,2.21086262,-
+Lasius_umbratus,Formicinae,Omnivore,Ground,-,0,3000,1.00125,0.464875,1.291,0.65,2.153804786,3.477121255
+Linepithema_humile,Dolichoderinae,Omnivore,Ground,1,0,15000,0.6967,0.2956,0.802,0.382,2.356901218,4.176091259
+Monomorium_pharaonis,Myrmicinae,Omnivore,Ground,1,0,1591,0.435125,0.196625,0.624,0.311,2.212968849,3.20167018
+Monomorium_viridum,Myrmicinae,Omnivore,Ground,1,0,10000,0.4045,0.092,0.748,0.421,4.39673913,4
+Myrmecina_americana,Myrmicinae,Predator,Ground,0,0,37,0.69525,0.328125,0.82,0.467,2.118857143,1.568201724
+Myrmica_punctiventris,Myrmicinae,Omnivore,Leaf Litter,1,0,50,0.9735,0.3445,1.015,-,2.825834543,1.698970004
+Neivamyrmex_nigrescens,Ecitoninae,Predator,Ground,0,1,30000,0.7962,0.412,1.782,0.949,1.932524272,4.477121255
+Neivamyrmex_opacithorax,Ecitoninae,Predator,Ground,0,1,30000,0.7981,0.3617,1.86,0.943,2.206524744,4.477121255
+Neivamyrmex_texanus,Ecitoninae,Predator,Ground,-,1,30000,0.951,0.429,1.517,1.175,2.216783217,4.477121255
+Nylanderia_arenivaga,Formicinae,Omnivore,Ground,0,0,100,0.4438333,0.2171667,0.802,0.458,2.043744736,2
+Nylanderia_bourbonica,Formicinae,Omnivore,Ground,1,0,200,0.6195,0.3006667,0.496,0.255,2.060421058,2.301029996
+Nylanderia_concinna,Formicinae,Omnivore,Ground,-,0,100,0.4595,0.685,0.758,0.368,0.67080292,2
+Nylanderia_faisonensis,Formicinae,Omnivore,Leaf Litter,-,0,82,0.4995,0.2433333,0.72,0.387,2.052740007,1.913813852
+Nylanderia_fulva,Formicinae,Omnivore,-,1,0,-,0.6389,0.3126,1.065,0.558,2.043825976,-
+Nylanderia_parvula,Formicinae,Omnivore,Ground,0,0,100,0.499125,0.234,0.684,0.36,2.133012821,2
+Nylanderia_phantasma,Formicinae,Omnivore,Ground,-,0,100,0.434,0.287,0.88,0.352,1.512195122,2
+Nylanderia_pubens,Formicinae,Omnivore,Ground,-,0,200,0.707625,0.310625,0.906,0.463,2.27806841,2.301029996
+Nylanderia_steinheili,Formicinae,Omnivore,Leaf Litter,-,0,143,0.5335,0.2816,0.734,0.431,1.89453125,2.155336037
+Nylanderia_vividula,Formicinae,Omnivore,Leaf Litter,-,0,200,0.5664,0.2949,0.77,0.401,1.920651068,2.301029996
+Nylanderia_wojciki,Formicinae,Omnivore,Ground,-,0,100,0.44825,0.1675,0.615,0.308,2.676119403,2
+Ochetellus_glaber,Dolichoderinae,Omnivore,Arboreal,1,0,-,0.5211,0.2036,-,-,2.559430255,-
+Odontomachus_brunneus,Ponerinae,Predator,Ground,0,0,72,1.6948,1.0825,2.218,1.452,1.565635104,1.857332496
+Odontomachus_haematodus,Ponerinae,Predator,Ground,-,0,500,1.7484,1.1954,1.835,1.368,1.462606659,2.698970004
+Odontomachus_relictus,Ponerinae,Predator,Ground,-,0,200,1.566,0.98,-,-,1.597959184,2.301029996
+Odontomachus_ruginodis,Ponerinae,Predator,Ground,0,0,200,1.6421,0.9958,1.704,0.941,1.649025909,2.301029996
+Paratrechina_longicornis,Formicinae,Omnivore,Ground,1,0,2000,0.5032,0.2964,1.004,0.539,1.697705803,3.301029996
+Pheidole_adrianoi,Myrmicinae,Omnivore,Ground,-,1,325,0.6445,0.151,0.909,0.401,4.268211921,2.511883361
+Pheidole_bicarinata,Myrmicinae,Omnivore,Ground,0,1,200,0.71805,0.32065,1.257,0.585,2.239357555,2.301029996
+Pheidole_carrolli,Myrmicinae,Omnivore,Ground,-,1,-,0.97625,0.223,1.467,0.667,4.377802691,-
+Pheidole_crassicornis,Myrmicinae,Omnivore,Ground,-,1,1000,0.961,0.38625,-,-,2.48802589,3
+Pheidole_dentata,Myrmicinae,Omnivore,Ground,0,1,873,0.887,0.4431111,1.482,0.707,2.001755316,2.941014244
+Pheidole_dentigula,Myrmicinae,Omnivore,Mixed,-,1,300,0.552,0.1838333,0.795,0.418,3.002720399,2.477121255
+Pheidole_diversipilosa,Myrmicinae,Omnivore,Ground,0,1,1000,0.9444,0.3638,-,-,2.595931831,3
+Pheidole_flavens,Myrmicinae,Omnivore,Mixed,-,1,-,0.61165,0.2758,-,-,2.217730239,-
+Pheidole_floridana,Myrmicinae,Omnivore,Ground,-,1,1000,0.6102,0.2483,0.94,0.457,2.457511075,3
+Pheidole_littoralis,Myrmicinae,Omnivore,Ground,-,1,-,0.9947,0.3465,-,-,2.870707071,-
+Pheidole_megacephala,Myrmicinae,Omnivore,Ground,1,1,-,0.901,0.4170455,-,-,2.160435732,-
+Pheidole_metallescens,Myrmicinae,Omnivore,Ground,0,1,767,0.5596667,0.259,0.877,0.404,2.16087529,2.884795364
+Pheidole_moerens,Myrmicinae,Omnivore,Ground,0,1,600,0.5745,0.1951667,0.927,0.43,2.943637414,2.77815125
+Pheidole_morrisii,Myrmicinae,Omnivore,Ground,1,1,2500,0.9618889,0.4757222,1.503,0.811,2.02195504,3.397940009
+Pheidole_obscurithorax,Myrmicinae,Omnivore,Ground,0,1,10000,1.1060833,0.5453333,1.455,0.838,2.028270234,4
+Pheidole_tysoni,Myrmicinae,Omnivore,Ground,0,1,-,0.661375,0.30425,1.019,0.522,2.173788003,-
+Platythyrea_punctata,Ponerinae,Predator,Mixed,-,0,60,1.0285,0.5757,0.949,0.587,1.786520757,1.77815125
+Pogonomyrmex_badius,Myrmicinae,Specialist,Ground,0,1,4400,2.38575,0.8774167,3.009,1.506,2.719061536,3.643452676
+Ponera_exotica,Ponerinae,Predator,Ground,-,0,50,0.4018333,0.2173333,0.321,0.187,1.848926511,1.698970004
+Ponera_pennsylvanica,Ponerinae,Predator,Mixed,1,0,7,0.5684,0.3085,0.645,0.379,1.842463533,0.84509804
+Prenolepis_imparis,Formicinae,Omnivore,Ground,1,0,2485,0.8312,0.39,1.36,0.652,2.131282051,3.395326393
+Proceratium_silaceum,Proceratiinae,Predator,Ground,1,0,28,0.8137,0.4277,0.617,0.342,1.902501754,1.447158031
+Pseudomyrmex_cubaensis,Pseudomyrmecinae,Omnivore,Arboreal,-,0,-,0.6834,0.2971,0.723,0.406,2.300235611,-
+Pseudomyrmex_ejectus,Pseudomyrmecinae,Omnivore,Arboreal,-,0,80,0.6551667,0.2665,0.696,0.316,2.458411632,1.903089987
+Pseudomyrmex_elongatus,Pseudomyrmecinae,Omnivore,Arboreal,-,0,80,0.5696,0.2463,0.587,0.295,2.312626878,1.903089987
+Pseudomyrmex_gracilis,Pseudomyrmecinae,Omnivore,Arboreal,0,0,80,1.3541,0.574,1.55,0.841,2.359059233,1.903089987
+Pseudomyrmex_pallidus,Pseudomyrmecinae,Omnivore,Arboreal,1,0,30,0.6828,0.2986,0.709,0.389,2.286671132,1.477121255
+Pseudomyrmex_seminole,Pseudomyrmecinae,-,Ground,0,0,-,0.9501667,0.3015,0.963,0.403,3.151465008,-
+Pseudomyrmex_simplex,Pseudomyrmecinae,Omnivore,Arboreal,0,0,-,0.6427,0.2278,0.649,0.335,2.821334504,-
+Solenopsis_carolinensis,Myrmicinae,Omnivore,Ground,1,0,200,0.3223,0.15125,0.474,0.279,2.130909091,2.301029996
+Solenopsis_geminata,Myrmicinae,Omnivore,Ground,1,1,28000,1.0225909,0.4497273,1.507,0.794,2.273802146,4.447158031
+Solenopsis_globularia,Myrmicinae,Omnivore,Ground,-,1,50,0.4238,0.1858,0.611,0.323,2.280947255,1.698970004
+Solenopsis_invicta,Myrmicinae,Omnivore,Ground,1,1,150000,1.2046667,0.56725,1.266,0.637,2.123696254,5.176091259
+Stenamma_foveolocephalum,Myrmicinae,Predator,Ground,-,0,-,0.94325,0.41925,-,-,2.249850924,-
+Stenamma_impar,Myrmicinae,Omnivore,Ground,0,0,54,0.5755,0.291,0.72,0.533,1.97766323,1.73239376
+Stigmatomma_pallipes,Amblyoponinae,Predator,Ground,1,0,11.5,1.0892,0.783,1.095,0.852,1.391060026,1.06069784
+Strumigenys_abdita,Myrmicinae,Predator,Ground,-,0,-,0.415,0.105,-,-,3.952380952,-
+Strumigenys_angulata,Myrmicinae,Predator,Leaf Litter,-,0,-,0.442,0.181,0.515,0.275,2.44198895,-
+Strumigenys_apalachicolensis,Myrmicinae,Predator,Leaf Litter,-,0,332,0.35,0.087,0.399,0.162,4.022988506,2.521138084
+Strumigenys_archboldi,Myrmicinae,Predator,Leaf Litter,1,0,-,0.3776667,0.143,0.417,0.188,2.641025874,-
+Strumigenys_boltoni,Myrmicinae,Predator,Leaf Litter,-,0,-,0.336,0.11,0.416,0.138,3.054545455,-
+Strumigenys_bunki,Myrmicinae,Predator,Leaf Litter,-,0,40,0.3795,0.114,0.413,0.133,3.328947368,1.602059991
+Strumigenys_cloydi,Myrmicinae,Predator,Ground,-,0,50,0.3795,0.14775,-,-,2.568527919,1.698970004
+Strumigenys_creightoni,Myrmicinae,Predator,Leaf Litter,0,0,42,0.377,0.1275,0.467,0.147,2.956862745,1.62324929
+Strumigenys_dietrichi,Myrmicinae,Predator,Ground,-,0,65,0.3456667,0.1323333,0.395,0.209,2.61209159,1.812913357
+Strumigenys_eggersi,Myrmicinae,Predator,Leaf Litter,1,0,33,0.3598,0.2784,0.387,0.291,1.292385057,1.51851394
+Strumigenys_emmae,Myrmicinae,Predator,Leaf Litter,1,0,28,0.3472,0.1324,0.406,0.158,2.622356495,1.447158031
+Strumigenys_gundlachi,Myrmicinae,Predator,Leaf Litter,0,0,-,0.3812,0.3146,0.359,0.283,1.211697394,-
+Strumigenys_hexamera,Myrmicinae,Predator,Ground,0,0,42.5,0.552,0.246,0.587,0.327,2.243902439,1.62838893
+Strumigenys_laevinasis,Myrmicinae,Predator,Leaf Litter,0,0,14,0.386,0.1335,0.399,0.244,2.891385768,1.146128036
+Strumigenys_lanuginosa,Myrmicinae,Predator,Leaf Litter,0,0,-,0.458,0.3564,0.478,0.357,1.285072952,-
+Strumigenys_louisianae,Myrmicinae,Predator,Leaf Litter,1,0,118,0.4636,0.3348,0.521,0.336,1.384707288,2.071882007
+Strumigenys_margaritae,Myrmicinae,Predator,Leaf Litter,0,0,225,0.39325,0.135,0.405,0.234,2.912962963,2.352182518
+Strumigenys_membranifera,Myrmicinae,Predator,Ground,1,0,250,0.4062,0.1204,0.484,0.162,3.373754153,2.397940009
+Strumigenys_missouriensis,Myrmicinae,Predator,Leaf Litter,0,0,49,0.3845,0.1035,-,-,3.714975845,1.69019608
+Strumigenys_ornata,Myrmicinae,Predator,Leaf Litter,0,0,20,0.3603333,0.1023333,0.402,0.116,3.52117346,1.301029996
+Strumigenys_pilinasis,Myrmicinae,Predator,Mixed,1,0,24,0.42025,0.1715,0.394,0.167,2.450437318,1.380211242
+Strumigenys_pulchella,Myrmicinae,Predator,Mixed,0,0,-,0.365,0.085,0.4,0.135,4.294117647,-
+Strumigenys_reflexa,Myrmicinae,Predator,Mixed,0,0,-,0.4015,0.123,-,-,3.264227642,-
+Strumigenys_rogeri,Myrmicinae,Predator,Leaf Litter,1,0,-,0.4408,0.3294,0.475,0.349,1.33819065,-
+Strumigenys_rostrata,Myrmicinae,Predator,Leaf Litter,1,0,23,0.466,0.16175,0.458,-,2.880989181,1.361727836
+Strumigenys_silvestrii,Myrmicinae,Predator,Leaf Litter,0,0,-,0.3536,0.255,-,-,1.386666667,-
+Strumigenys_talpa,Myrmicinae,Predator,Leaf Litter,0,0,25,0.3646,0.114,0.41,0.139,3.198245614,1.397940009
+Strumigenys_wrayi,Myrmicinae,Predator,-,1,0,-,0.375,0.08,-,-,4.6875,-
+Tapinoma_melanocephalum,Dolichoderinae,Omnivore,Mixed,1,0,-,0.4048,0.1789,0.46,0.23,2.262716601,-
+Tapinoma_sessile,Dolichoderinae,Omnivore,Mixed,1,0,300,0.6591,0.2804,1.05,0.46,2.350570613,2.477121255
+Technomyrmex_difficilis,Dolichoderinae,Omnivore,Mixed,1,0,-,0.6007,0.243,1.107,0.582,2.472016461,-
+Temnothorax_allardycei,Myrmicinae,Omnivore,Mixed,0,0,60,0.575,0.1926667,0.726,0.324,2.984428549,1.77815125
+Temnothorax_curvispinosus,Myrmicinae,Omnivore,Mixed,1,0,42.5,0.4768,0.2097,0.657,0.286,2.273724368,1.62838893
+Temnothorax_pergandei,Myrmicinae,Omnivore,Mixed,0,0,55,0.6174167,0.3040833,0.724,0.317,2.030419625,1.740362689
+Temnothorax_schaumii,Myrmicinae,Omnivore,Arboreal,1,0,100,0.550125,0.217875,0.724,0.425,2.524956971,2
+Temnothorax_smithi,Myrmicinae,Omnivore,Arboreal,1,0,35.5,0.908,0.2945,1.099,0.465,3.083191851,1.550228353
+Temnothorax_torrei,Myrmicinae,-,Leaf Litter,-,0,-,0.3964,0.1625,0.532,0.222,2.439384615,-
+Tetramorium_bicarinatum,Myrmicinae,Omnivore,Mixed,1,0,500,0.7884,0.4022,0.96,0.536,1.960218797,2.698970004
+Tetramorium_caldarium,Myrmicinae,Omnivore,Ground,1,0,-,0.4654,0.2332,0.478,0.254,1.995711835,-
+Tetramorium_simillimum,Myrmicinae,Omnivore,Ground,1,0,300,0.4878,0.2373,0.558,0.292,2.05562579,2.477121255
+Trachymyrmex_jamaicensis,Myrmicinae,Specialist,Ground,-,0,150,1.4375,0.736875,1.65,-,1.950805768,2.176091259
+Trachymyrmex_septentrionalis,Myrmicinae,Specialist,Ground,0,0,300,1.00925,0.434,1.103,0.689,2.325460829,2.477121255
+Wasmannia_auropunctata,Myrmicinae,Omnivore,Mixed,1,0,819.5,0.39225,0.1709,0.821,0.334,2.295201872,2.913548958
+Xenomyrmex_floridanus,Myrmicinae,Omnivore,Arboreal,0,0,50,0.43,0.1604,0.599,0.276,2.680798005,1.698970004
